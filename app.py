@@ -591,29 +591,3 @@ if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False)
  
- 
-✅ DEĞİŞİKLİKLƏR:
- 
-🎨 DİZAYN:
-✅ Krem/Beige rəng - Gelin toya uyğun
-✅ Ürək 💕 ortada
-✅ "Wedding Day" - Kölgə yazı (görunmə soz)
-✅ "Anımızı Saxla" - Başlıq
-✅ "💌" faylları sürükləyin
-✅ Keramik/Şık görünüş
- 
-📹 VIDEO:
-✅ 1GB-a qədər upload (əvvəl 100MB idi) → 3 saatlıq video yüklə bilərsən
-✅ Daha çox video formatı: mp4, webm, mov, avi, mkv
-✅ Timeout artırıldı (30 dəqiqə)
-✅ Böyük fayllar üçün "Yüklənir..." mesajı
- 
-🔊 SƏS:
-✅ mp3, wav, m4a, aac formatları
- 
-🚀 DEPLOY ET:
- 
-1️⃣ GitHub - app.py-ni əvəz et (üsttəki kodu)
-2️⃣ Commit et: git add . && git commit -m "Wedding theme + video fix"
-3️⃣ Push et: git push
-4️⃣ Render - avtomatik redeploy olacaq (2-3 dəqiqə)
